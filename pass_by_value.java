@@ -1,4 +1,3 @@
-// Save this entire code into your Main.java file
 
 class NumberWrapper {
     int value;
