@@ -1,6 +1,7 @@
 abstract class car{
     abstract void model();
     abstract void music();
+    abstract void fly();
 }
 class audi extends car{
     void model(){
@@ -8,6 +9,9 @@ class audi extends car{
     }
     void music(){
         System.out.println("Bose");
+    }
+    void fly(){
+        System.out.println("Cannot Fly");
     }
 }
 class bmw extends car{
@@ -17,6 +21,9 @@ class bmw extends car{
     void music(){
         System.out.println("Harman Kardon");
     }
+    void fly(){
+        System.out.println("Cannot Fly");
+    }
 }
 class tesla extends car{
     void model(){
@@ -25,6 +32,9 @@ class tesla extends car{
     void music(){
         System.out.println("Premium Sound System");
     }
+    void fly(){
+        System.out.println("Can Fly");
+    }
 }
 class cvl extends car{
     void model(){
@@ -32,6 +42,9 @@ class cvl extends car{
     }
     void music(){
         System.out.println("Bose");
+    }
+    void fly(){
+        System.out.println("Cannot Fly");
     }
 }
 public class carabstract {
