@@ -1,11 +1,11 @@
 abstract class car{
-    abstract void model();
+    abstract void drive();
     abstract void music();
     abstract void fly();
 }
 class audi extends car{
-    void model(){
-        System.out.println("Audi A6");
+    void  drive(){
+        System.out.println("Audi A6 can drive");
     }
     void music(){
         System.out.println("Bose");
@@ -15,8 +15,8 @@ class audi extends car{
     }
 }
 class bmw extends car{
-    void model(){
-        System.out.println("BMW X5");
+    void drive(){
+        System.out.println("BMW X5 can drive");
     }
     void music(){
         System.out.println("Harman Kardon");
@@ -26,8 +26,8 @@ class bmw extends car{
     }
 }
 class tesla extends car{
-    void model(){
-        System.out.println("Tesla Model S");
+    void drive(){
+        System.out.println("Tesla Model S can drive");
     }
     void music(){
         System.out.println("Premium Sound System");
